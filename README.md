@@ -70,3 +70,4 @@ python emotions.py --mode display
    X Wang, D Athanasakis, J Shawe-Taylor, M Milakov, J Park, R Ionescu,
    M Popescu, C Grozea, J Bergstra, J Xie, L Romaszko, B Xu, Z Chuang, and
    Y. Bengio. arXiv 2013.
+\n## ETF 0050 Utility\n\nA helper script `src/tw_etf_0050.py` can download the component stocks for ETF **0050** from Goodinfo, fetch their last 30 days of closing prices from Yahoo Finance, and calculate simple technical indicators (moving average and RSI).\nTo run it:\n\n```bash\npython src/tw_etf_0050.py\n```\n
